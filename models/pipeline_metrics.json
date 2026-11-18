@@ -1,0 +1,55 @@
+{
+  "Random Forest": {
+    "CV_PR_AUC_Mean": 0.5200142244930352,
+    "Best_Params": {
+      "n_estimators": 100,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_depth": 6,
+      "class_weight": "balanced"
+    },
+    "ROC_AUC": 0.693053781319491,
+    "PR_AUC": 0.5219563612811663,
+    "F1_Score": 0.5465465465465466,
+    "Confusion_Matrix": [
+      [
+        700,
+        267
+      ],
+      [
+        186,
+        273
+      ]
+    ]
+  },
+  "Gradient Boosting": {
+    "ROC_AUC": 0.6602681518430651,
+    "PR_AUC": 0.4754214328820735,
+    "F1_Score": 0.4064602960969044,
+    "Confusion_Matrix": [
+      [
+        834,
+        133
+      ],
+      [
+        308,
+        151
+      ]
+    ]
+  },
+  "Logistic Regression": {
+    "ROC_AUC": 0.6966428074159688,
+    "PR_AUC": 0.5114070132591305,
+    "F1_Score": 0.5423728813559322,
+    "Confusion_Matrix": [
+      [
+        652,
+        315
+      ],
+      [
+        171,
+        288
+      ]
+    ]
+  }
+}
