@@ -320,7 +320,7 @@ def render_browser_chrome(url_slug="analytics/retention-overview"):
                 <span class="browser-dot dot-green"></span>
             </div>
             <div class="browser-url-bar">
-                <span>🔒</span> https://fintech-analytics.internal/{url_slug}
+                <span>🔒</span> https://fintech-data-analysis.streamlit.app
             </div>
             <div class="handwritten-annotation">
                 ✦ Live Intelligence Preview
